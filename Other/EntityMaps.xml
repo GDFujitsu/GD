@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityMaps xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityMap>
+    <EntitySource>new_scheme</EntitySource>
+    <EntityTarget>new_notifiableevent</EntityTarget>
+    <AttributeMaps>
+      <AttributeMap>
+        <AttributeSource>new_regardingaccountid</AttributeSource>
+        <AttributeTarget>new_organisation</AttributeTarget>
+      </AttributeMap>
+      <AttributeMap>
+        <AttributeSource>new_schemeindividual</AttributeSource>
+        <AttributeTarget>new_schemeindividual</AttributeTarget>
+      </AttributeMap>
+    </AttributeMaps>
+  </EntityMap>
+  <EntityMap>
+    <EntitySource>new_scheme</EntitySource>
+    <EntityTarget>new_supervisoryreturn</EntityTarget>
+    <AttributeMaps>
+      <AttributeMap>
+        <AttributeSource>new_supervisoryreturndate</AttributeSource>
+        <AttributeTarget>new_submissiondeadline</AttributeTarget>
+      </AttributeMap>
+    </AttributeMaps>
+  </EntityMap>
+</EntityMaps>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{920a7db3-ea90-492f-a653-11f496dc9279}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="new_psr" select="1" icon="1" preview="0">
+        <row name="new_scheme" id="new_schemeid">
+          <cell name="new_psr" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="new_regardingaccountid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="new_centralscheme" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="fjs_scheme_title" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="fjs_scemetype" width="100" disableSorting="1" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="new_scheme">
+          <attribute name="new_schemeid" />
+          <attribute name="new_psr" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="new_psr" descending="false" />
+          <attribute name="fjs_scemetype" />
+          <attribute name="fjs_scheme_title" />
+          <attribute name="new_centralscheme" />
+          <attribute name="new_regardingaccountid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Scheme Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

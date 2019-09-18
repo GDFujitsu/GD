@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{9b1ffff5-f226-44f5-8ab0-52655cf2046e}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{af8d0341-6423-4912-84e9-0061eb6d78d4}" IsUserDefined="1" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{78b204c2-a5f6-4762-8465-c0cad23cd6ab}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{82ce8921-7033-46b6-a541-324d5c928601}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="fjs_risk_title" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="fjs_risk_title" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a18275cc-517a-e474-e7ad-d8c987c2e88a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="fjs_risktype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="fjs_risktype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a4a02c3a-5371-7872-15b9-25451a36c0c2}" showlabel="true" locklevel="0" rowspan="4">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="fjs_riskdescription" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="fjs_riskdescription" disabled="false" uniqueid="{54c7c63a-8b60-4ba7-0b94-654ae6e78816}" />
+                      </cell>
+                    </row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row>
+                      <cell id="{0c2a1bb5-68a6-1e09-3bcc-c753699138dc}" showlabel="true" locklevel="0" rowspan="4">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="fjs_desiredoutcome" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="fjs_desiredoutcome" disabled="false" uniqueid="{9d0b1e19-584e-acca-ee88-63ec65cc5ad7}" />
+                      </cell>
+                    </row>
+                    <row></row>
+                    <row></row>
+                    <row />
+                    <row>
+                      <cell id="{1cba5ac4-d81d-4d58-c513-78459cd12145}" showlabel="true" locklevel="0" rowspan="4">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="fjs_riskmitigation" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="fjs_riskmitigation" disabled="false" uniqueid="{b1e9352d-cdd0-8552-7120-0b444343a81d}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{8b5cedc7-a07b-3d31-c9e0-dbe1d6dd0eb7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="fjs_risk_schemeid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="fjs_risk_schemeid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{838ced38-329d-bc57-7547-30a5ae59d211}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="fjs_linktoref" classid="{71716B6C-711E-476c-8AB8-5D11542BFB47}" datafieldname="fjs_linktoref" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e2694e48-9424-1e49-8d40-3e82945d07c4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="fjs_risk_impact" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="fjs_risk_impact" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3e176e00-919e-34a4-7b4b-da79a6cc1273}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="fjs_probability" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="fjs_probability" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="66%">
+              <sections>
+                <section showlabel="false" showbar="false" id="{3d6606a6-2a33-4a02-9b6c-3229e588bb51}" IsUserDefined="0" height="auto">
+                  <labels>
+                    <label description="Notes" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" rowspan="15" auto="false" id="{98795af0-2b91-4cea-8d0e-6375e005ba55}">
+                        <labels>
+                          <label description="Note Text" languagecode="1033" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}">
+                          <parameters>
+                            <DefaultTabId>NotesTab</DefaultTabId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row height="auto"></row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="{716cd771-1770-ab8c-3cd2-c2bbb84c261e}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Actions" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_2" showlabel="false" showbar="false" locklevel="0" id="{71187099-c71c-1ce5-3867-c9b3c7343872}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{480d1650-1edc-b0ab-6360-6d568c0d78a2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="fjs_numberofactions" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="fjs_numberofactions" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tab_2_section_1" showlabel="false" showbar="false" locklevel="0" id="{5e71ca0c-4e70-9828-077e-56e4b5302ded}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Top">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b26a6137-a507-4bd8-847c-ebb5a4ccd45c}" showlabel="true" colspan="1" auto="false" rowspan="11">
+                        <labels>
+                          <label description="RAID Actions" languagecode="1033" />
+                        </labels>
+                        <control id="Actions" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{8a491735-4644-2b4a-1b1e-4b356eadd446}">
+                          <parameters>
+                            <ViewId>{D09CB4E8-7068-448A-9D27-20953E60E506}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>fjs_fjs_riskframework_fjs_raidactions</RelationshipName>
+                            <TargetEntityType>fjs_raidactions</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{D09CB4E8-7068-448A-9D27-20953E60E506}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>8</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                    <row></row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{44f6ec7e-c24f-4044-9068-09b7ba1158ec}" columns="111">
+        <rows>
+          <row>
+            <cell id="{026b5c08-758d-1e14-1e98-63363d759a4d}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="header_createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="false" />
+            </cell>
+            <cell id="{013a0555-63b2-edad-9467-112d25671001}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="header_modifiedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="false" />
+            </cell>
+            <cell id="{6919be93-58ac-658d-75d2-22617a7862d0}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="header_modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{a64ce5c9-683d-4c2d-8b23-38dc8e20126e}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="fjs_risk_title" select="1" icon="1" preview="1">
+        <row name="result" id="fjs_riskframeworkid">
+          <cell name="fjs_risk_title" width="300" />
+          <cell name="fjs_risktype" width="100" />
+          <cell name="fjs_risk_impact" width="100" />
+          <cell name="fjs_probability" width="100" />
+          <cell name="fjs_numberofactions" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="fjs_riskframework">
+          <attribute name="fjs_risk_title" />
+          <attribute name="createdon" />
+          <order attribute="fjs_risk_title" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="fjs_risktype" />
+          <attribute name="fjs_numberofactions" />
+          <attribute name="fjs_probability" />
+          <attribute name="fjs_risk_impact" />
+          <attribute name="fjs_riskframeworkid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Risk Framework" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

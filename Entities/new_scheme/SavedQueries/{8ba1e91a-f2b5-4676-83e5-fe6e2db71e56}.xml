@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{8ba1e91a-f2b5-4676-83e5-fe6e2db71e56}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="new_psr" select="1" icon="1" preview="1">
+        <row name="result" id="new_schemeid">
+          <cell name="new_psr" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="fjs_scheme_title" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="new_regardingaccountid" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="new_schemereturndate" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="new_supervisoryreturndate" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="createdon" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="ownerid" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="statecode" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="new_scheme">
+          <attribute name="new_psr" />
+          <attribute name="createdon" />
+          <order attribute="new_psr" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="new_supervisoryreturndate" />
+          <attribute name="statecode" />
+          <attribute name="new_schemereturndate" />
+          <attribute name="ownerid" />
+          <attribute name="new_regardingaccountid" />
+          <attribute name="fjs_scheme_title" />
+          <attribute name="new_schemeid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Schemes" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

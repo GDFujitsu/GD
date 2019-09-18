@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{ec207f87-f957-49a6-a2f8-411ea744b451}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="new_surid" select="1" icon="1" preview="1">
+        <row name="result" id="new_supervisoryreturnid">
+          <cell name="new_surid" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="new_regardingschemeid" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="a_df11821e208ce911a971000d3a38c9b5.new_regardingaccountid" width="150" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="new_schemecontact" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="new_submissiondeadline" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="statecode" width="100" />
+          <cell name="statuscode" width="100" />
+          <cell name="new_returntype" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="new_supervisoryreturn">
+          <attribute name="new_surid" />
+          <attribute name="createdon" />
+          <order attribute="new_surid" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="new_submissiondeadline" />
+          <attribute name="statecode" />
+          <attribute name="new_schemecontact" />
+          <attribute name="new_regardingschemeid" />
+          <link-entity alias="a_df11821e208ce911a971000d3a38c9b5" name="new_scheme" from="new_schemeid" to="new_regardingschemeid" link-type="outer" visible="false">
+            <attribute name="new_regardingaccountid" />
+          </link-entity>
+          <attribute name="statuscode" />
+          <attribute name="new_returntype" />
+          <attribute name="new_supervisoryreturnid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active SuR's" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

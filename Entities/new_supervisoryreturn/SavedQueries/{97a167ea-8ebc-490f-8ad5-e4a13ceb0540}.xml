@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{97a167ea-8ebc-490f-8ad5-e4a13ceb0540}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="new_surid" select="1" icon="1" preview="1">
+        <row name="result" id="new_supervisoryreturnid">
+          <cell name="new_surid" width="300" />
+          <cell name="createdon" width="125" />
+          <cell name="ownerid" width="100" />
+          <cell name="new_question1" width="100" />
+          <cell name="new_question2" width="100" />
+          <cell name="new_question3" width="100" />
+          <cell name="new_question4" width="100" />
+          <cell name="new_returntype" width="100" />
+          <cell name="new_regardingschemeid" width="100" />
+          <cell name="new_schemecontact" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="new_supervisoryreturn">
+          <attribute name="new_surid" />
+          <attribute name="createdon" />
+          <order attribute="new_surid" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="new_surid" operator="like" value="{0}" />
+            <condition attribute="new_schemecontact" operator="like" value="{0}" />
+            <condition attribute="new_regardingschemeid" operator="like" value="{0}" />
+          </filter>
+          <attribute name="new_schemecontact" />
+          <attribute name="new_regardingschemeid" />
+          <attribute name="new_returntype" />
+          <attribute name="new_question4" />
+          <attribute name="new_question3" />
+          <attribute name="new_question2" />
+          <attribute name="new_question1" />
+          <attribute name="ownerid" />
+          <attribute name="new_supervisoryreturnid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active SuR's" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

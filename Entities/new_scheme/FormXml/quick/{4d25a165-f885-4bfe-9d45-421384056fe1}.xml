@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{4d25a165-f885-4bfe-9d45-421384056fe1}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{c86b0271-8518-40e3-b3f8-05ee0a0779d6}" IsUserDefined="1">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="true" showbar="true" IsUserDefined="0" id="{b6f25252-5193-4e76-a49f-be79176c64e9}" name="{b6f25252-5193-4e76-a49f-be79176c64e9}" columns="1" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="SCHEME DETAILS" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{3b77837a-c204-57aa-3434-1a1ab5c3ce65}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Title" languagecode="1033" />
+                        </labels>
+                        <control id="fjs_scheme_title" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="fjs_scheme_title" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{07d017b4-5ed6-453d-a9c2-b61322660197}">
+                        <labels>
+                          <label description="PSR" languagecode="1033" />
+                        </labels>
+                        <control id="new_psr" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="new_psr" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{eb1220c8-892b-8497-516d-8476dae74e49}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Type" languagecode="1033" />
+                        </labels>
+                        <control id="fjs_scemetype" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="fjs_scemetype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c897b27f-15f4-40da-b2e0-376000d727fe}" showlabel="true" locklevel="1">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{95e38458-b2bd-e618-e7d9-528260aae8d4}" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

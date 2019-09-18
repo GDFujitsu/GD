@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{5e3c4d1d-7bf2-4573-86f4-cd9613ae1efe}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{858b84e6-be3b-4065-9669-9586a8ea9d11}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{e369c00d-e5d5-464a-aa8f-e52fc9a3bfbf}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c46450be-478f-4fd9-9552-423f8f38ef3f}">
+                        <labels>
+                          <label description="Action Title" languagecode="1033" />
+                        </labels>
+                        <control id="fjs_action_title" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="fjs_action_title" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d5e1ac76-2672-377c-0891-2e4796340d9c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="fjs_description" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="fjs_description" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{44a8c449-e280-c640-a401-5b3b8909e7c3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Due Date" languagecode="1033" />
+                        </labels>
+                        <control id="fjs_actionduedate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="fjs_actionduedate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{78a7d103-6ec6-2e33-92cc-2422dadd8378}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Completed on" languagecode="1033" />
+                        </labels>
+                        <control id="fjs_completedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="fjs_completedon" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="66%">
+              <sections>
+                <section showlabel="false" showbar="false" id="{6da788a1-200e-4171-add0-4bac1de0ec39}" IsUserDefined="0" height="auto">
+                  <labels>
+                    <label description="Notes" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" rowspan="15" auto="false" id="{d6f4ca1d-0bb1-4b0e-8663-e9b504190416}">
+                        <labels>
+                          <label description="Note Text" languagecode="1033" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}">
+                          <parameters>
+                            <DefaultTabId>NotesTab</DefaultTabId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{a7de2052-a841-40a6-80a1-8fec5d2a06c5}" columns="111">
+        <rows>
+          <row>
+            <cell id="{92d39b0b-c586-ed79-275b-49aa6e0d7137}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Created On" languagecode="1033" />
+              </labels>
+              <control id="header_createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="false" />
+            </cell>
+            <cell id="{bc31cdd1-9455-ce85-8e52-5e25e936574d}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Modified On" languagecode="1033" />
+              </labels>
+              <control id="header_modifiedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="false" />
+            </cell>
+            <cell id="{26ac5bb9-a7ec-b4d7-0e56-9c80936ee214}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
